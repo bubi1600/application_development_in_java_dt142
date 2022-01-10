@@ -1,0 +1,648 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+
+/* Use entire width of webb browser */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    scroll-behaviour: smooth;
+}
+
+/* NAVBAR START */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  margin: 0 2rem;
+}
+
+.nav a{
+   text-decoration: none;
+   color:white;
+}
+
+.nav{
+    position: fixed;
+    background-color: black;
+    display:flex;
+    width: 100%;
+    font-size: 17pt;
+    z-index: 1;
+}
+
+.nav_logo{
+    padding: 0.5vh 0vw 0vh 0.5vw;
+    font-size: 25pt;
+    font-family: "Srisakdi", cursive;
+    font-weight: bold;  
+    /*border: 5px solid red;*/
+}
+
+.nav_links{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    padding: 0.8%;
+    vertical-align:middle;
+    /*border: 5px solid gold;*/
+}
+
+.nav_links a{
+    padding: 0vh 3vw 0vh 3vw;
+    display: block;
+    position: relative;
+}
+
+.nav_links a:hover{
+    color: yellow;
+}
+
+/* Fade in */
+.nav_links a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: yellow;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.nav_links a:hover::after,
+.nav_links a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+/* NAVBAR END */
+
+
+/* MAIN PICTURE AND TIME START */
+.main_pic_top{
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    display: block;
+}
+.open_time{
+    position: absolute;
+    top:15vh;
+    left:76vw;
+    font-size: 18pt;
+    font-weight: bold;
+    color:white;
+    font-family: "Domine", serif;
+}
+/* MAIN PICTURE AND TIME STOP */
+
+/* SECTION 1 START */
+.section_1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top:30%;
+    left:20%;
+    width:60%;
+    font-family: "Domine", serif;
+    background: rgb(15,15,15,0.8);
+    color: white;
+}
+.section_1_inner{
+    display: flex;
+    justify-content: center;
+    width: 48vw;
+    font-size: 15pt;
+}
+.section_1_inner *{
+    margin: 3vh 0vw 3vh 0vw;
+    font-family: "Domine", serif;
+}
+.today_lunch_pic{
+    width: 30vw;
+    margin: 5vh 1vw 5vh 0vw;
+    filter: brightness(80%);
+}
+.today_lunch_information{
+    margin-left: 1vw;
+    width: 20vw;
+    word-wrap: break-word;
+}
+.today_title{
+    font-family: "caveat", cursive;
+    color:yellow;
+    font-size: 45pt;
+    font-weight: bold;
+}
+.today_lunch_title{
+   font-size: 25pt;
+   text-decoration: underline;
+}
+.today_lunch_price{
+    position: relative;
+    top:5vh;
+    font-size: 18pt;
+}
+/* SECTION 1 STOP */
+
+
+
+/* SECTION 2 START */
+.section_2{
+    width:100%;
+    font-family: "Domine", serif;
+    background-color: white;
+    color: black;
+}
+.section_2_lunch_title{
+    text-align: center;
+    font-family: "caveat", cursive;
+    font-size: 50pt;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+.section_2_inner{
+    display: flex;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 48vw;
+    font-size: 15pt;
+    border: 2px solid black;
+    /*border: 2px solid gold;*/
+}
+.section_2_inner *{
+    margin: 0.5vh 0vw 0.5vh 0vw;
+    font-family: "Domine", serif;
+}
+.week_lunch_pic{
+    width: 15vw;
+    margin: 0vh 0vw 0vh 0vw;
+}
+.week_lunch_information{
+    margin-left: 1vw;
+    width: 31vw;
+    word-wrap: break-word;
+}
+.week_title{
+    font-family: "caveat", cursive;
+    color: #748d4c;
+    font-size: 35pt;
+    font-weight: bold;
+}
+.week_lunch_title{
+   font-size: 25pt;
+   font-weight: bold;
+}
+.week_lunch_description{
+    font-size: 12pt;
+}
+.week_lunch_price{
+    font-size: 15pt;
+    margin-top: 2vh;
+}
+
+.section_2_lunch_title{
+    margin-bottom: 2vh;
+}  
+
+.section_2_meny_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap: 0.6%;
+    width: 64.5%;
+    margin: auto;
+}
+
+.section_2_meny_container img{
+    background-color: black;
+    filter: brightness(50%);
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+     border: 1px solid rgba(0,0,0, 1.0);
+}
+
+
+
+.meny_titles{
+    position: relative;
+    height: 0;
+    top: -18vh;
+    right: -11.5vw;
+    transform: translate(-50%, -50%);
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.meny_description{
+    position: relative;
+    width: 0;
+    height: 0;
+    top: -14vh;
+    right: -1vw;
+    transform: translate(-50%, -50%);
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.meny_price{
+    position: relative;
+    height: 0;
+    top: -5vh;
+    right: -11.5vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+/* SECTION 2 STOP */
+
+
+/* SECTION 3 START */
+.section_3{
+  margin-top: 6vh;
+}
+.section_3_inner{
+    margin: auto;
+    width: 48vw;
+    /*border: 1px solid blue;*/
+    font-size: 16pt;
+    font-family: "Domine", serif;
+}
+.section_3_title{
+    font-size: 45pt;
+    margin-bottom: 3vh;
+    font-weight: bold;
+}
+.section_3_button{
+    margin-top: 5%;
+    border-radius: 100px;
+    width: 28%;
+    text-align: center;
+    background-color: #0f0f0f;
+    color:white;
+    padding: 2%;
+    opacity: 0.7; 
+}
+.section_3 a{
+    text-decoration: none;
+}
+.section_3_button:hover{
+    background-color: #333333;
+}
+.btn_close{
+    margin-left: 97.5%;
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+}
+hr{
+    margin-bottom: 2%; 
+    margin-top: 2%;
+}
+.form_title, .form_text{
+    text-align: center;
+    font-family: "Domine", serif;
+}
+.form_title{
+   font-size: 17pt;
+   font-weight: bold;
+}
+.form_text{
+    color:gray;
+}
+.form-popup{
+    display: none;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    background-color: white;
+    border: 3px solid #f1f1f1;
+    z-index: 2;
+}
+.reservation_overlay{
+    display: none;
+    position: fixed;
+    z-index:1;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+.form_inner_container *{ 
+    margin: auto;
+    text-align: left;
+}
+.form_inner_container{ 
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+.form_inner_container a{
+    text-decoration: none;
+    color:black;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.reservation_form_button{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, .5);
+    padding:3%;
+    margin-bottom: 0.5%;
+    text-align: left;
+}
+.reservation_form_button:hover{
+    border: 2px solid rgba(0, 0, 0, 1.0);
+}
+.num_of_guest{
+    width: 49.2%;
+    padding: 2.2%;
+    border: 2px solid rgba(0, 0, 0, .5);
+}
+.reservation_date{
+    width: 49.2%;
+    padding: 2%;
+    margin-left: 1%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.time_button_list{
+    display: none;
+    list-style: none;
+    width: 100%;
+    margin-top: 2%;
+}
+.time_button{
+    width: 100%;
+    background: rgba(15,170,220, 1.0);
+    padding: 2.4%;
+    margin-bottom: 0.2%;
+    color: white;
+    word-spacing: 70px
+}
+.time_button:hover{
+    background: rgba(15,170,220, 0.8);
+}
+.reservation_step_two{
+    display: none;
+    font-family: "Domine", serif;
+}
+.reservation_grid_container_summery{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.reservation_grid_item div{
+    color:black;
+}
+.reservation_grid_container_summery a{
+    color:black;
+}
+.grid_text{
+    color: rgba(0,0,0, 0.5);
+}
+.reservation_grid_container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.reservation_grid_item{
+    border: 1px solid rgba(0,0,0, 0.2);
+    padding: 4%;
+    color: rgba(0,0,0, 0.5);
+    font-size: 9pt;
+}
+.reservation_step_two input{
+    margin-top: 2%;
+    border: none;
+}
+.reservation_step_two input:focus{
+    outline: none;
+}
+.submit_btn{
+    margin-top: 2%;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(15,170,220, 1.0);
+    color: white;
+    padding: 2%;
+}
+.submit_button a{
+    text-decoration: none;
+}
+.reservation_step_three{
+    display: none;
+}
+.reservation_confirm_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2%;
+}
+
+.rev_center{
+    margin: auto;
+    padding-bottom: 2vh;
+
+
+}
+.rev_center td{
+  
+    padding-right: 2vh;
+
+
+}
+.rev_center input{
+ width: 200px;
+
+}
+
+.rev_button{
+  margin-left: 26.5vh;
+    padding-bottom: 1vh;
+    
+}
+.add_button1{
+    border-radius: 100px;
+    width: 40%;
+    background-color: #0f0f0f;
+    color:white;
+    padding: 2.5%;
+    opacity: 0.7; 
+}
+
+
+/* SECTION 3 STOP */
+
+/* SECTION 4 START */
+.section_4{
+    background: #0f0f0f;
+    color: white;
+    margin-top: 6vh;
+}
+
+
+.section_4_title{
+    font-size: 45pt;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.section_4_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5vh;
+    width: 64.5%;
+    margin: auto;
+}
+
+.section_4_image{
+    background-color: black;
+    filter: brightness(50%);
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+}
+
+.event_eventname_title{
+    position: relative;
+    height: 0;
+    top: -21vh;
+    right: -16vw;
+    transform: translate(-50%, -50%);
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_eventname{
+    position: relative;
+    height: 0;
+    top: -21vh;
+    right: -24vw;
+    transform: translate(-50%, -50%);
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_guestname_title{
+    position: relative;
+    height: 0;
+    top: -17vh;
+    right: -16vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_guestname{
+    position: relative;
+    height: 0;
+    top: -17vh;
+    right: -24vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_description_title{
+    position: relative;
+    height: 0;
+    top: -13vh;
+    right: -16vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_description{
+    position: relative;
+    height: 0;
+    top: -13vh;
+    right: -24vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_date_title{
+    position: relative;
+    height: 0;
+    top: -9vh;
+    right: -16vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_date{
+    position: relative;
+    height: 0;
+    top: -9vh;
+    right: -24vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_time_title{
+    position: relative;
+    height: 0;
+    top: -5vh;
+    right: -16vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+.event_time{
+    position: relative;
+    height: 0;
+    top: -5vh;
+    right: -24vw;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    font-family: "Domine", serif;
+}
+/* SECTION 4  STOP */
+
+/* FOOTER START */
+.footer_cont{
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-size: 12pt;
+    margin: 3vh;
+}
+
+.footer_title{
+    text-decoration: underline;
+    font-size: 16pt;
+    font-weight: bold;
+}
+/* FOOTER STOP */

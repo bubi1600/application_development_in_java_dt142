@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    
+    <h:head>
+        <title>Antons Skafferi</title>
+        
+        <!-- ICON -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/icon.png"/>
+        <!-- ICON -->
+        
+        <!-- STYLES CSS -->
+        <link rel="stylesheet" href="style/index.css"/>
+        <!-- STYLES CSS -->
+        
+        <!-- SCRIPTS -->
+        <script src="scripts/reservation.js"/>
+        <!-- SCRIPTS -->
+        
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Domine&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;display=swap" rel="stylesheet"/>
+        <!-- FONTS -->
+    </h:head>
+    
+    <h:body>
+        <header>
+            <div id="head"/>
+        </header>
+        
+        <nav class="nav">
+            <div class="nav_logo">
+                <a href="#head">Antons Skafferi</a>
+            </div>
+            
+            <div class="nav_links">
+                <ul>
+                    <li><a href="#section_1">Veckans Lunch</a></li>
+                    <li><a href="#section_2">Meny</a></li>
+                    <li><a href="#section_3">Reservation</a></li>
+                    <li><a href="#section_4">Events</a></li>
+                </ul>
+            </div>         
+        </nav>
+
+        <img class="main_pic_top" src="images/main_pic.jpg" alt="Main Picture"/>
+        
+        <div class="open_time">
+            <div>Öppettider:</div>
+            <table>
+                <tr>
+                    <td>Vardagar:</td>
+                    <td>10:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Helger:</td>
+                    <td>12:00-23:00</td>  
+                </tr>
+            </table>
+        </div>
+        
+        <section>
+            <div id="section_1" class="section_1">
+                <div class="section_1_inner">
+                    <c:forEach items="${api.getLunchToday()}" var="lunch">
+                        <h:graphicImage class="today_lunch_pic" value="/images/${lunch.picture}" alt="Todays Lunch Picture"/>
+                        <div class="today_lunch_information">
+                            <p class="today_title">Dagens Lunch</p>
+                            <p class="today_lunch_title">${lunch.lunchname}</p>
+                            <p class="today_lunch_description">${lunch.description}</p>
+                            <p class="today_lunch_price">Pris: ${lunch.price} kr</p>
+                        </div>
+                    </c:forEach>
+                </div>
+            </div>
+            
+            <div id="section_2" class="section_2">
+                <p class="section_2_lunch_title">Veckans Lunch</p>
+                <c:forEach items="${api.getLunch()}" var="lunch">
+                    <div class="section_2_inner">
+                         <h:graphicImage class="week_lunch_pic" value="/images/${lunch.picture}" alt="Todays Lunch Picture"/>
+                        <div class="week_lunch_information">
+                            <p class="week_title">${lunch.dayid} Lunch</p>
+                            <p class="week_lunch_title">${lunch.lunchname}</p>
+                            <p class="week_lunch_description">${lunch.description}</p>
+                            <p class="week_lunch_price">Pris: ${lunch.price} kr</p>
+                        </div>
+                    </div>
+                </c:forEach>      
+                
+                <p class="section_2_lunch_title">Meny</p>
+                <div class="section_2_meny_container">
+                    <c:forEach items="${api.getMenu()}" var="menu">
+                        <div class="section_2_meny_grid">
+                            <div>
+                                <h:graphicImage class="section_2_meny_img" value="/images/${menu.picture}" alt="Todays Lunch Picture"/>                             
+                                <p class="meny_titles">${menu.menuid}</p>
+                                <p class="meny_description">${menu.description}</p>
+                                <p class="meny_price">Pris: ${menu.price} kr</p>
+                            </div>  
+                        </div>
+                    </c:forEach>     
+                </div>
+            </div>
+            
+            <div id="section_3" class="section_3">
+                <div id="section_3_inner" class="section_3_inner">
+                    <p class="section_3_title">Reservation</p>
+                    <p class="section_3_description">Här kan du reservera bord</p>
+                    <a href="#none"><div onclick="openReservation()" class ="section_3_button">Reservera Bord</div></a>
+                </div>
+            </div>
+            
+            <div id="section_4" class="section_4"> 
+                <p class="section_4_title">Event</p>
+                <div class="section_4_container">
+                    <c:forEach items="${api.getEvent()}" var="event">
+                        <div class="section_4_inner">
+                            <table>
+                                <h:graphicImage class="section_4_image" value="/images/${event.picture}" alt="Todays Lunch Picture"/>
+                                <td> 
+                                    <tr><p class="event_eventname_title">Event: </p></tr>
+                                    <tr><p class="event_eventname">${event.eventname}</p></tr>
+                                </td>
+                                <td> 
+                                    <tr><p class="event_guestname_title">Gäst: </p></tr>
+                                    <tr><p class="event_guestname">${event.guestname}</p></tr>
+                                </td> 
+                                <td> 
+                                    <tr><p class="event_description_title">Beskrivning: </p></tr>
+                                    <tr><p class="event_description">${event.description}</p></tr>
+                                </td> 
+                                <td> 
+                                    <tr><p class="event_date_title">Datum: </p></tr>
+                                    <tr><p class="event_date">${event.date}</p></tr>
+                                </td> 
+                                <td> 
+                                    <tr><p class="event_time_title">Tid: </p></tr>
+                                    <tr><p class="event_time">${event.time}</p></tr>
+                                </td>                                 
+                            </table>
+                        </div>  
+                    </c:forEach>     
+                </div>
+            </div>
+        </section>
+        
+        <!-- Reservation Form START !-->
+        <div class="form-popup" id="reservationForm">
+                <a class="btn_close" onclick="closeReservation()" href="#none">X</a>
+            
+                    <p class="form_title">Antons Skafferi</p>
+                    <hr/>
+                    <p class="form_text">För bokningar för sällskap över 6 personer vänligen maila oss antonsskafferi@gmail.se eller ring 08-506 541 10.</p>
+                    <p class="form_text">Välkommen till oss!</p>
+     
+              
+                      <form method="post" action="ReservationBean" >
+                          
+                          <table class="rev_center">
+                         <tr>
+                             <td>
+                            <p>Antal gäster </p> 
+                            <select name="nrofpeople">
+                             <option value="1">1</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                             <option value="4">4</option>
+                             <option value="5">5</option>
+                             <option value="6">6</option>
+                           </select>
+                            </td>
+                        </tr>
+                        
+                              <tr>
+                                <td>
+                                    <p>Datum </p> 
+                                    <input type="text" name="date"/>
+                                </td>
+                                 <td>
+                                    <p>Tid </p>                          
+                                    <input type="text" name="time"/>
+                                </td>
+                              </tr>
+                             <tr>
+                                <td>
+                                    <p>Förnamn </p> 
+                                    <input type="text" name="fname"/>
+                                </td>
+                                 <td>
+                                    <p>Efternamn </p>                          
+                                    <input type="text" name="lname"/>
+                                </td>
+                              </tr>
+                                  <tr>
+                                <td>
+                                    <p>Email</p> 
+                                    <input type="text" name="email"/>
+                                </td>
+                                 <td>
+                                    <p>Mobil</p>                          
+                                    <input type="text" name="phonenr"/>
+                                </td>
+                              </tr>
+              
+                          </table>
+                            <div class="rev_button">
+                             <input class ="add_button1" type="submit" value="Boka"/>
+                            </div>
+                       </form>
+                
+    
+        </div>
+        
+        <div id="reservation_overlay" class="reservation_overlay"></div>
+        <!--Reservation Form STOP !-->
+        
+        <footer>
+            <div class="footer_cont">
+                <i class="footer_title">ADRESS</i><br/>
+                <i>ANTONS SKAFFERI</i><br/>
+                <i>GRÖNBORGSGATAN 13</i><br/>
+                <i>852 29 SUNDSVALL</i><br/><br/>
+
+                <i class="footer_title">KONTAKT</i><br/>
+                <i>antonsskafferi@gmail.com</i><br/>
+                <i>0735418841</i><br/>
+            </div>
+        </footer>
+    </h:body>   
+</html>
+

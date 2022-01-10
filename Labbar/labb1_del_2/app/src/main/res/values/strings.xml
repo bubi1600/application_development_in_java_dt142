@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="appTitle">Weather App</string>
+    <string name="buttonText">Refresh</string>
+</resources>

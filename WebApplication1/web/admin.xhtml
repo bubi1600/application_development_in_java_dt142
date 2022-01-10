@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    
+    <h:head>
+        <script src="scripts/admin.js"></script>
+        <title>Antons Skafferi Admin</title>
+        
+        <!-- ICON -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/icon.png"/>
+        <!-- ICON -->
+        
+         <!-- STYLES  -->
+        <link rel="stylesheet" href="style/admin.css"/>
+        <!-- STYLES  -->
+        
+    <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Domine&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;display=swap" rel="stylesheet"/>
+        <!-- FONTS -->
+    </h:head>
+    
+    <h:body>
+        <header>
+            <div id="head"/>
+        </header>
+        
+        <nav class="nav">
+            <div class="nav_logo">
+                <a href="#head">Antons Skafferi</a>
+            </div>
+            <div class="nav_links">
+                <a href="#section_1">Luncher</a>
+                <a href="#section_2">À la carte</a>
+                <a href="#section_4">Förrätt</a>
+                <a href="#section_5">Efterrätt</a>
+                <a href="#section_3">Events</a>
+                <a href="#section_6">Anställda</a>
+            </div>           
+        </nav>
+        
+   
+        <section>
+            <p class="section_1_title">Luncher</p>
+            <div class="section_1">
+                <div class="lunch_titles">
+                    <p class="inner_titles">Måndags Lunch</p>
+
+                      <form method="post" action="LunchBean" enctype="multipart/form-data" > 
+                    
+                           <input type="hidden" name='dayid' value="Måndag" />            
+                           <p>LunchName</p> 
+                           <input type="text" name="lunchname"/>
+                            <p>Description </p> 
+                           <input type="text" name="description"/>
+                              <p>Price </p> 
+                           <input type="text" name="price"/>
+                              <p>Time </p> 
+                           <input type="text" name="time"/>
+                           <p>Picture</p> 
+                           <input type="file" name="picture"/> 
+                           <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+                </div>
+                
+                <div class="lunch_titles">
+                <p class="inner_titles">Tisdags Lunch</p>
+                                  
+                <form method="post" action="LunchBean" enctype="multipart/form-data" > 
+                    
+                           <input type="hidden" name='dayid' value="Tisdag" />            
+                           <p>LunchName</p> 
+                           <input type="text" name="lunchname"/>
+                            <p>Description </p> 
+                           <input type="text" name="description"/>
+                              <p>Price </p> 
+                           <input type="text" name="price"/>
+                              <p>Time </p> 
+                           <input type="text" name="time"/>
+                           <p>Picture</p> 
+                           <input type="file" name="picture"/> 
+                           <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+                </div>
+                
+                <div class="lunch_titles">
+                    <p class="inner_titles">Onsdags Lunch</p>
+                                  
+               <form method="post" action="LunchBean" enctype="multipart/form-data" >                        
+                           <input type="hidden" name='dayid' value="Onsdag" />            
+                           <p>LunchName</p> 
+                           <input type="text" name="lunchname"/>
+                            <p>Description </p> 
+                           <input type="text" name="description"/>
+                              <p>Price </p> 
+                           <input type="text" name="price"/>
+                              <p>Time </p> 
+                           <input type="text" name="time"/>
+                           <p>Picture</p> 
+                           <input type="file" name="picture"/> 
+                           <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+                
+             </div>
+                
+                    <div class="lunch_titles">
+                    <p class="inner_titles">Tordags Lunch</p>
+                                      
+                   <form method="post" action="LunchBean" enctype="multipart/form-data" >                        
+                           <input type="hidden" name='dayid' value="Torsdag" />            
+                           <p>LunchName</p> 
+                           <input type="text" name="lunchname"/>
+                            <p>Description </p> 
+                           <input type="text" name="description"/>
+                              <p>Price </p> 
+                           <input type="text" name="price"/>
+                              <p>Time </p> 
+                           <input type="text" name="time"/>
+                           <p>Picture</p> 
+                           <input type="file" name="picture"/> 
+                           <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+                
+             </div>
+                
+            <div class="lunch_titles">
+                    <p class="inner_titles">Fredags Lunch</p>
+                                  
+                    <form method="post" action="LunchBean" enctype="multipart/form-data" >                        
+                           <input type="hidden" name='dayid' value="Fredag" />            
+                           <p>LunchName</p> 
+                           <input type="text" name="lunchname"/>
+                            <p>Description </p> 
+                           <input type="text" name="description"/>
+                              <p>Price </p> 
+                           <input type="text" name="price"/>
+                              <p>Time </p> 
+                           <input type="text" name="time"/>
+                           <p>Picture</p> 
+                           <input type="file" name="picture"/> 
+                           <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>              
+                </div>   
+                            <div class="lunch_titles">
+                    <p class="inner_titles">Ta bort Dags Lunch</p>
+                                  
+           <table>   
+                 <h:form>
+                     <c:forEach items="${api.getLunch()}" var="item">
+                         <tr> 
+                             <td> 
+                                 <h:outputText class="form-input" value="${item.dayid}" ></h:outputText>                         
+                             </td>
+                             <td> 
+                                <h:commandButton class="delete-button" value="Ta bort" action="${api.delete_l(item.dayid)}"/>
+                             </td> 
+                         </tr>   
+                     </c:forEach>  
+                </h:form>                   
+            </table> 
+                
+                </div>   
+            </div>
+            
+            
+            <p class="section_2_title">À la carte</p>
+            <div class="section_2">             
+            <div class="menu"> 
+                <p class="inner_titles">Lägg till meny</p>
+                    <form method="post" action="MenuBean"  enctype="multipart/form-data">
+                           <p>Menu</p> 
+                           <input type="text" name="menuid"/>
+                           <p>Description</p> 
+                           <input type="text" name="description"/>
+                           <br/>
+                           <p>Price</p> 
+                           <input type="text" name="price"/>
+                           <p>Time</p> 
+                           <input type="text" name="time"/>
+                           <p>Picture</p> 
+                           <input type="file" name="picture"/> 
+                          
+                          <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+                
+             </div>
+                   
+                
+              <div class="menu_list">
+                 <p class="inner_titles">Meny Lista</p>
+                <table>   
+                 <h:form>
+                     <c:forEach items="${api.getMenu()}" var="item">
+                         <tr> 
+                             <td> 
+                                 <h:outputText class="form-input" value="${item.menuid}" ></h:outputText> 
+                             </td>
+                             <td> 
+                                <h:commandButton class="delete-button" value="Ta bort" action="${api.delete_m(item.menuid)}"/>
+                             </td> 
+                         </tr>   
+                     </c:forEach>  
+                </h:form>                   
+            </table>
+                </div>
+            </div>
+            
+             <p class="section_2_title">Förrätt</p>
+            <div class="section_2">             
+            <div class="menu"> 
+                <p class="inner_titles">Lägg till Förrätt</p>
+                    <form method="post" action="AppetizerBean">
+                           <p>Menu</p> 
+                           <input type="text" name="appetizerid"/>
+                           <p>Price</p> 
+                           <input type="text" name="price"/>
+                           <p>Time</p> 
+                           <input type="text" name="time"/>
+                        
+                          <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+                
+             </div>
+                   
+                
+              <div class="menu_list">
+                 <p class="inner_titles">Förrätt Lista</p>
+                <table>   
+                 <h:form>
+                     <c:forEach items="${api.getAppetizer()}" var="item">
+                         <tr> 
+                             <td> 
+                                 <h:outputText class="form-input" value="${item.appetizerid}" ></h:outputText> 
+                             </td>
+                             <td> 
+                                <h:commandButton class="delete-button" value="Ta bort" action="${api.delete_a(item.appetizerid)}"/>
+                             </td> 
+                         </tr>   
+                     </c:forEach>  
+                </h:form>                   
+            </table>
+                </div>
+            </div>
+             
+                         
+             <p class="section_2_title">Efterrätt</p>
+            <div class="section_2">             
+            <div class="menu"> 
+                <p class="inner_titles">Lägg till Efterrätt</p>
+                    <form method="post" action="DessertBean">
+                           <p>Menu</p> 
+                           <input type="text" name="dessertid"/>
+                           <p>Price</p> 
+                           <input type="text" name="price"/>
+                           <p>Time</p> 
+                           <input type="text" name="time"/>
+                        
+                          <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+                
+             </div>
+                   
+                
+              <div class="menu_list">
+                 <p class="inner_titles">Efterrätt Lista</p>
+                <table>   
+                 <h:form>
+                     <c:forEach items="${api.getDessert()}" var="item">
+                         <tr> 
+                             <td> 
+                                 <h:outputText class="form-input" value="${item.dessertid}" ></h:outputText> 
+                             </td>
+                             <td> 
+                                <h:commandButton class="delete-button" value="Ta bort" action="${api.delete_d(item.dessertid)}"/>
+                             </td> 
+                         </tr>   
+                     </c:forEach>  
+                </h:form>                   
+            </table>
+                </div>
+            </div>
+            
+            
+           
+            <p class="section_3_title">EVENTS</p>
+            <div class="section_3">
+            <div class="event">
+                <p class="inner_titles">Lägg till event</p>
+             <form method="post" action="EventBean"  enctype="multipart/form-data">
+                           <p>Eventname</p> 
+                           <input type="text" name="eventname"/>
+                           <p>Guestname</p> 
+                           <input type="text" name="guestname"/>
+                           <br/>
+                           <p>Description</p> 
+                           <input type="text" name="description"/>
+                           <p>Time</p> 
+                           <input type="text" placeholder="hh:mm-hh:mm" name="time"/>
+                              <br/>
+                           <p>Date</p>    
+                           <input type="text" placeholder="yyyy-mm-dd" name="date"/>
+                            <p>Picture</p> 
+                           <input type="file" name="picture"/> 
+                          <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+            </div>
+            
+                     <div class="menu_list">
+                 <p class="inner_titles">Event Lista</p>
+                <table>   
+                 <h:form>
+                     <c:forEach items="${api.getEvent()}" var="item">
+                         <tr> 
+                             <td> 
+                                 <h:outputText class="form-input" value="${item.eventname}" ></h:outputText> 
+                             </td>
+                             <td> 
+                                <h:commandButton class="delete-button" value="Ta bort" action="${api.delete_e(item.eventid)}"/>
+                             </td> 
+                         </tr>   
+                     </c:forEach>  
+                </h:form>                   
+            </table>
+                </div>
+            </div>
+            
+
+            
+             <p class="section_2_title">Anställda</p>
+            <div class="section_2">             
+            <div class="menu"> 
+                <p class="inner_titles">Lägg till ny Anställ</p>
+                    <form method="post" action="EmployeeBean">
+                           <p>Förnamn</p> 
+                           <input type="text" name="fname"/>
+                           <p>Efternamn</p> 
+                           <input type="text" name="lname"/>
+                           <p>Mobil</p> 
+                           <input type="text" name="phonenr"/>
+                        
+                          <input class ="add_button" type="submit" value="Lägg till"/>
+                       </form>
+                
+             </div>
+                   
+                
+              <div class="menu_list">
+                 <p class="inner_titles">Anställ Lista</p>
+                <table>   
+                 <h:form>
+                     <c:forEach items="${api.getEmployee()}" var="item">
+                         <tr> 
+                             <td> 
+                                 <h:outputText class="form-input" value="${item.fname} ${item.lname} " ></h:outputText> 
+                             </td>
+                              <td> 
+                                 <h:outputText class="form-input" value="${item.phonenr} " ></h:outputText> 
+                             </td>
+                             <td> 
+                                <h:commandButton class="delete-button" value="Ta bort" action="${api.delete_em(item.employeeid)}"/>
+                             </td> 
+                         </tr>   
+                     </c:forEach>  
+                </h:form>                   
+            </table>
+                </div>
+            </div>
+        </section>     
+    </h:body>   
+</html>
+
+
