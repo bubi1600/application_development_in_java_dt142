@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="Nexus 7 2013" />
+      </config>
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="881f9a4e-4d4a-4554-912b-58958e1f703c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/GetApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kitchenapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kitchenapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/ConnectToDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/ConnectToDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/FetchApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/GetIP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/ParseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/ParseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/api/database/table/classes/MenuTableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/api/database/table/classes/MenuTableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/api/database/table/interfaces/MenuTableInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/java/com/example/staffapp/api/database/table/interfaces/MenuTableInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/res/layout-land/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/res/layout-land/activity_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/res/layout-land/activity_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffApp/app/src/main/res/layout/activity_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StaffApp/app/src/main/res/layout/activity_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/nbproject/rest-build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/conf/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Buyorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Diningtable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Drink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Lunch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/Timetable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/AbstractFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/BillFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/BuyorderFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/DiningtableFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/DrinkFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/EmployeeFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/IngredientFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/LunchFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/MenuFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/ReservationFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/src/java/packageDB/service/TimetableFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/WEB-INF/glassfish-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/admin.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/app.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/cc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/cg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/collapse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/css_master-all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/background_border_bottom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/bg_gradient.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/event.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/food.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/level1_deselect.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/level1_selected-1lvl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/main_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/masthead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/masthead_link_enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/masthead_link_roll.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/pbdis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/pbena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/pbmou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/pbsel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/pname.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/primary-enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/primary-roll.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/secondary-enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/tbsel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/images/tbuns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/item.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/og.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/scripts/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/scripts/reservation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/style/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/style/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/test-resbeans.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/test-resbeans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/web/test-resbeans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/generated-sources/ap-source-output/packageDB/Bill_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/generated-sources/ap-source-output/packageDB/Buyorder_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/generated-sources/ap-source-output/packageDB/Diningtable_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/generated-sources/ap-source-output/packageDB/Employee_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/generated-sources/ap-source-output/packageDB/Ingredient_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/generated-sources/ap-source-output/packageDB/Menu_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/generated-sources/ap-source-output/packageDB/Timetable_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Bill.rapt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Bill_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Buyorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Buyorder.rapt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Buyorder_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Diningtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Diningtable.rapt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Diningtable_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Employee.rapt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Employee_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Ingredient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Ingredient.rapt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Ingredient_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Menu.rapt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Menu_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/ServerApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Timetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Timetable.rapt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/Timetable_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/AbstractFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/BillFacadeREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/BuyorderFacadeREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/DiningtableFacadeREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/EmployeeFacadeREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/IngredientFacadeREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/MenuFacadeREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/packageDB/service/TimetableFacadeREST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/classes/resouces.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/glassfish-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/lib/json-simple-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/admin.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/app.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/cc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/cg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/collapse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/css_master-all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/gfv5ee8.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/background_border_bottom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/bg_gradient.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/event.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/food.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/level1_deselect.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/level1_selected-1lvl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/main_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/masthead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/masthead_link_enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/masthead_link_roll.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/pbdis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/pbena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/pbmou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/pbsel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/pname.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/primary-enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/primary-roll.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/secondary-enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/tbsel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/images/tbuns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/item.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/og.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/scripts/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/scripts/reservation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/style/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/style/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/test-resbeans.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/test-resbeans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/build/web/test-resbeans.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/nbproject/rest-build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/conf/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/Buyorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/Diningtable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/ServerApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/Timetable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/AbstractFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/BillFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/BuyorderFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/DiningtableFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/EmployeeFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/IngredientFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/MenuFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/java/packageDB/service/TimetableFacadeREST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/src/lib/json-simple-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/WEB-INF/glassfish-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/admin.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/app.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/cc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/cg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/collapse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/css_master-all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/background_border_bottom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/bg_gradient.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/event.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/food.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/level1_deselect.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/level1_selected-1lvl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/main_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/masthead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/masthead_link_enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/masthead_link_roll.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/pbdis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/pbena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/pbmou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/pbsel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/pname.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/primary-enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/primary-roll.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/secondary-enabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/tbsel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/images/tbuns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/item.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/og.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/scripts/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/scripts/reservation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/style/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/style/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/test-resbeans.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/test-resbeans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webbsite/web/test-resbeans.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\robar\.android\avd\Nexus_7_API_30_2.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21v9caC4g4K0XcNc4cumZpj5POT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StaffApp" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="KitchenApp.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="881f9a4e-4d4a-4554-912b-58958e1f703c" name="Default Changelist" comment="" />
+      <created>1638810773427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638810773427</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

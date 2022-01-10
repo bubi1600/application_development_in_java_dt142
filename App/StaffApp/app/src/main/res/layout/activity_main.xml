@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewHeadLine"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="4dp"
+        android:text="Choose Table"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonTable1"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Table 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeadLine" />
+
+    <Button
+        android:id="@+id/buttonTable6"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:text="Table 6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStatusTable4" />
+
+    <Button
+        android:id="@+id/buttonTable5"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="3dp"
+        android:text="Table 5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStatusTable3" />
+
+    <Button
+        android:id="@+id/buttonTable4"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="20dp"
+        android:text="Table 4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStatusTable2" />
+
+    <Button
+        android:id="@+id/buttonTable3"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:text="Table 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStatusTable1" />
+
+    <Button
+        android:id="@+id/buttonTable2"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Table 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeadLine" />
+
+    <Button
+        android:id="@+id/buttonTable7"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="7dp"
+        android:text="Table 7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStatusTable5" />
+
+    <Button
+        android:id="@+id/buttonSchedule"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#C0C0C0"
+        android:drawableTop="@drawable/serving"
+        android:text="Schedule"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonReservation"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#C0C0C0"
+        android:drawableTop="@drawable/serving"
+        android:text="Reservation"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonSchedule" />
+
+    <Button
+        android:id="@+id/buttonStatusTable5"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Status: "
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpecificsTable5" />
+
+    <Button
+        android:id="@+id/buttonSpecificsTable5"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Specifics"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTable5" />
+
+    <Button
+        android:id="@+id/buttonStatusTable7"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Status: "
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpecificsTable7" />
+
+    <Button
+        android:id="@+id/buttonSpecificsTable7"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Specifics"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTable7" />
+
+    <Button
+        android:id="@+id/buttonStatusTable3"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Status: "
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpecificsTable3" />
+
+    <Button
+        android:id="@+id/buttonSpecificsTable3"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Specifics"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTable3" />
+
+    <Button
+        android:id="@+id/buttonStatusTable4"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Status: "
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpecificsTable4" />
+
+    <Button
+        android:id="@+id/buttonSpecificsTable4"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Specifics"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTable4" />
+
+    <Button
+        android:id="@+id/buttonStatusTable2"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Status: "
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpecificsTable2" />
+
+    <Button
+        android:id="@+id/buttonSpecificsTable2"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Specifics"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTable2" />
+
+    <Button
+        android:id="@+id/buttonSpecificsTable1"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Specifics"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTable1" />
+
+    <Button
+        android:id="@+id/buttonStatusTable1"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Status: "
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpecificsTable1" />
+
+    <Button
+        android:id="@+id/buttonStatusTable6"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Status: "
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpecificsTable6" />
+
+    <Button
+        android:id="@+id/buttonSpecificsTable6"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Specifics"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTable6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
